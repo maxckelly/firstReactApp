@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       
+      {/* The below is like params it assigns the string to the component */}
       <Header theHeaderText= "Did this work?" />
       <Trailer pageNumber="1"/>
         <img src={logo} className="App-logo" alt="logo" />
